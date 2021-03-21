@@ -5,9 +5,9 @@ https://en.wikipedia.org/wiki/Point_in_polygon
 
 ##Below function checks whether you are inside polygon or not.
 
+```javascript
 function inside(latLngs, lat, lng) {
   // ray-casting algorithm based on
-  // https://wrf.ecse.rpi.edu/Research/Short_Notes/pnpoly.html/pnpoly.html
 
   vertices_y = new Array();
   vertices_x = new Array();
@@ -33,3 +33,4 @@ function inside(latLngs, lat, lng) {
   }
   return c;
 };
+```
