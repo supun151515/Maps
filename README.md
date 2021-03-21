@@ -7,8 +7,6 @@ https://en.wikipedia.org/wiki/Point_in_polygon
 
 ```javascript
 function inside(latLngs, lat, lng) {
-  // ray-casting algorithm based on
-
   vertices_y = new Array();
   vertices_x = new Array();
   longitude_x = lng;
