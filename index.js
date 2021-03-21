@@ -37,13 +37,11 @@ function initMap() {
 
 function inside(latLngs, lat, lng) {
   // ray-casting algorithm based on
-  // https://wrf.ecse.rpi.edu/Research/Short_Notes/pnpoly.html/pnpoly.html
-
+ 
   vertices_y = new Array();
   vertices_x = new Array();
   longitude_x = lng;
   latitude_y = lat;
- // latLngs = JSON.parse(latLngs);
   var r = 0;
   var i = 0;
   var j = 0;
